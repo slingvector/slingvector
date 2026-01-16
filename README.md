@@ -1,16 +1,17 @@
-## Hi there 👋
+# Hi, I'm Anuj 👋
 
-<!--
-**slingvector/slingvector** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+Software engineer with a focus on backend systems, distributed architectures, and cloud-native development.
 
-Here are some ideas to get you started:
+## Core Skills
+- Languages: Java, Go, Python
+- Backend: REST APIs, async systems, message queues
+- Infrastructure: AWS, Docker, Kubernetes, Terraform
+- Observability: Prometheus, Grafana, CloudWatch
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+## Interests
+- System design and scalability
+- Reliability engineering
+- Building clean, maintainable software
+
+## Contact
+- GitHub: https://github.com/slingvector
