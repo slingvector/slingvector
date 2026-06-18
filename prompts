@@ -1,0 +1,38 @@
+Act as an Expert Technical Writer and Developer Experience (DevEx) Designer. I want you to completely overhaul the documentation (README.md, HLD.md, LLD.md, and ARCHITECTURE.md) for my software repository. 
+
+Your goal is to transform standard, text-heavy documentation into a highly visual, interactive, and universally comprehensive guide that covers all dimensions of the software. 
+
+Please analyze my provided codebase/context and generate the documentation using the following strict guidelines:
+
+### 1. Visual & Aesthetic Requirements
+*   **Hero Banner:** Start the `README.md` with an `<img>` tag for a hero banner centered at the top. Use a placeholder URL (e.g., `docs/assets/banner.png`) but provide a DALL-E/Midjourney prompt in a code block below it so I can generate the image myself.
+*   **Dynamic Badges:** Include a centered row of Shields.io badges representing the tech stack, build status, license, and versioning. Use custom hex colors to match the brand.
+*   **Emoji Typography:** Use contextual emojis for all headings and bullet points to break up visual monotony (e.g., 🚀 Quick Start, 🗄️ Database, 🛡️ Security).
+*   **GitHub Alerts:** Extensively use standard GitHub Markdown alerts (`> [!NOTE]`, `> [!TIP]`, `> [!IMPORTANT]`, `> [!WARNING]`, `> [!CAUTION]`) to draw attention to prerequisites, critical configurations, or gotchas.
+
+### 2. Interactive & Scannable Structure
+*   **Collapsible Sections:** Use HTML `<details>` and `<summary>` tags for long lists, installation steps, configuration tables, or verbose JSON examples. Keep the top-level view clean.
+*   **Table of Contents:** Include a clickable ToC for easy navigation.
+*   **Tabular Data:** Use Markdown tables for API endpoints, environment variables, database schemas, and feature comparisons.
+
+### 3. Software Dimensions to Cover (The Content)
+Generate content that covers the following dimensions of the software comprehensively:
+*   **The "Elevator Pitch" (TL;DR):** A clear, 2-sentence summary of what the software does, who it is for, and what problem it solves.
+*   **Core Features:** A bulleted list of the primary capabilities.
+*   **Architecture & High-Level Design (HLD):** 
+    *   Explain the macro-level system context.
+    *   Generate a detailed **Mermaid Sequence Diagram** (`sequenceDiagram`) showing the end-to-end data flow and user interaction. Use Mermaid styling (e.g., `autonumber`, distinct participant names).
+*   **Low-Level Design (LLD):** 
+    *   Provide schemas for databases, core object models, and REST/GraphQL API contracts.
+    *   Generate a **Mermaid Flowchart** (`graph TD` or `LR`) acting as a "circuit diagram" for the internal component/module interactions.
+*   **Quick Start / Developer Setup:** Step-by-step instructions for installation (using code blocks with bash syntax highlighting).
+*   **Configuration Management:** Detail the `.env` requirements and configuration files.
+*   **Testing & CI/CD:** Instructions on how to run the test suite, linting, and a brief overview of the deployment pipeline.
+*   **Troubleshooting:** A mini-FAQ for the most common errors a developer might face.
+
+### 4. Output Constraints
+*   Do not hallucinate features. If my provided code lacks a CI/CD pipeline or testing suite, add a "Coming Soon" placeholder or omit that specific sub-section.
+*   Output the documentation as raw Markdown inside code blocks so I can easily copy it. Separate the `README.md`, `HLD.md`, and `LLD.md` clearly.
+
+Here is the context/code for my repository:
+[INSERT YOUR REPOSITORY FILES, OLD README, OR CODE SUMMARIES HERE]
